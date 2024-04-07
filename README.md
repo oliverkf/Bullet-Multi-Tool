@@ -1,5 +1,5 @@
 # Bullet Multi Tool
-I will be updating this multi tool every week or every month. I dont really have time to work on it but here is what i have made so far! Hope you don't skid it. This multi tool was made by `@AquaLT | aqualt.py` in discord. Wasn't made by anyone else.
+I will be updating this multi tool every week or every month. I dont really have time to work on it but here is what i have made so far! Hope you don't skid it. This multi tool was made by `bullet.org` in discord. Wasn't made by anyone else.
 
 <img src="https://media.discordapp.net/attachments/1226282903818862664/1226547018374053928/image.png?ex=662529ed&is=6612b4ed&hm=a2cd38c02ddae78dd318604606a9da02c44ddfa4a4b6802738b5eabc1c9ce17a&=&format=webp&quality=lossless&width=909&height=449">
 <img src="https://media.discordapp.net/attachments/1226282903818862664/1226546590077026344/image.png?ex=66252987&is=6612b487&hm=e0888bb4e03618e157dba17fda68ede0f771396222c4b41c7951a8b8f924389f&=&format=webp&quality=lossless&width=918&height=449">
