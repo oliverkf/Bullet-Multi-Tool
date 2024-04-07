@@ -17,7 +17,7 @@ You 've got more to find out! What are you waiting for g?
 # Requirements
 - Must Have [**Python 3.10.9**](https://www.python.org/downloads/release/python-3109/)
 - Open `Builder.bat` then enjoy
+  To install them manually go to the folder directory and open the command prompt from there and type `pip install  -r requirements.txt` and after that your good to go.
 
-# Important
-- This tool wasn't made for malicious use, this tool was made for educational purposes only! I am not responsible for the way you use this multi-tool.
-- Use it carefully. Don't maliciously use it.
+# Disclaimer
+I am not responsible for your actions when using this tool. Use it at your own risk. This tool was made for educational purposes and research.
