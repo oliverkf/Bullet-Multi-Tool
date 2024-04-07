@@ -1,8 +1,8 @@
 # Bullet Multi Tool
 I will be updating this multi tool every week or every month. I dont really have time to work on it but here is what i have made so far! Hope you don't skid it. This multi tool was made by `@AquaLT | aqualt.py` in discord. Wasn't made by anyone else.
 
-<img src="https://cdn.discordapp.com/attachments/1181685338129834086/1184976335823716402/Untitled_design_1.png?ex=658dee36&is=657b7936&hm=c8c3986845f5ff48e40d63f0a8a703181087cce10fb5701004013570fe03f0f3&">
-<img src="https://cdn.discordapp.com/attachments/1188185732175630356/1190363800059256862/image.png?ex=65a187ad&is=658f12ad&hm=1cbba2b045694a402ba8c3f5de7d9c77ae6ec98ae9b10cb9e5a08694f9214336&">
+<img src="https://media.discordapp.net/attachments/1226282903818862664/1226546527049089115/image.png?ex=66252978&is=6612b478&hm=5565c993561e038a540679ae03cbf8d8662faf4b9d6928fbdb9263515e114419&=&format=webp&quality=lossless&width=900&height=449">
+<img src="https://media.discordapp.net/attachments/1226282903818862664/1226546590077026344/image.png?ex=66252987&is=6612b487&hm=e0888bb4e03618e157dba17fda68ede0f771396222c4b41c7951a8b8f924389f&=&format=webp&quality=lossless&width=918&height=449">
 
 # How many features does this shit have?
 ```yaml
