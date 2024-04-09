@@ -96,14 +96,13 @@ def main():
         print(f"{lr} Shit my not be working.")
         s.call("python util\lookup.py", shell=True)
     if a == "7":
-        print(f"{lr} I'm fr releasing this tomorrow.")
-        input()
+        s.call("python util\slookup.py", shell=True)
     if a == "8":
-        print(f"{lr} I'm fr releasing this tomorrow.")
+        print(f"{lr} Unchecked Codes")
+        s.call("python util\codez.py")
         input()
     if a == "9":
-        print(f"{lr} I'm fr releasing this tomorrow.")
-        input()
+        s.call("python util\ccgen.py")
     if a == "10":
         print(f"\n{lr}[{b}Bullet{lr}] {b} New feature soon")
         input()
