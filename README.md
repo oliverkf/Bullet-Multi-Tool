@@ -10,7 +10,9 @@ I will be updating this multi tool every week or every month. I dont really have
 - Webhook Spammer/Deleter
 - Server/Token Nuker
 - Token/Server Lookup
-(..More)
+- Nitro Generator
+- Credit Card Generator
+- Selfbot (Soon) (Maybe)
 ```
 You 've got more to find out! What are you waiting for g?
 
