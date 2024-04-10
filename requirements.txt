@@ -13,3 +13,4 @@ discord_webhook
 mss
 b64
 DiscordWebhook
+requests
