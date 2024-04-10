@@ -14,6 +14,15 @@ I will be updating this multi tool every week or every month. I dont really have
 - Credit Card Generator
 - Selfbot (Soon) (Maybe)
 ```
+# What does the Grabber grab?
+```
+- Discord token + info about the account
+- Screen Capture 10 Seconds (GIF)
+- Webcam
+```
+<img src="https://media.discordapp.net/attachments/1227592232022839300/1227654094651523072/image.png?ex=662930f8&is=6616bbf8&hm=5495623463b0876633f440dfa5351651fae218bf8eee6c073bd961b3478cb697&=&format=webp&quality=lossless&width=422&height=637">
+<img src="https://media.discordapp.net/attachments/1227635962176208990/1227655327445680178/image.png?ex=6629321e&is=6616bd1e&hm=aaf89e4d27fe9504d4615e3424b536fd5581adfe3b3660bc5f8dff8c23341297&=&format=webp&quality=lossless">
+
 You 've got more to find out! What are you waiting for g?
 
 # Requirements
