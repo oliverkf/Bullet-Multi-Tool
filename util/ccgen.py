@@ -1,7 +1,11 @@
 import random
-from datetime import datetime, timedelta
+import time as t
+
+
 import colorama
-from colorama import Fore
+from colorama import Fore,Back, Style
+colorama.init()
+
 
 w = Fore.WHITE
 r = Fore.RED
@@ -15,27 +19,20 @@ lb = Fore.LIGHTBLUE_EX
 fr = Fore.RESET
 ly = Fore.LIGHTYELLOW_EX
 
-def generate_credit_card():
-    card_number = input(f"{lr}Enter the credit card number: ")
 
-    # Generate a random expiration date (valid for the next 10 years)
-    current_year = datetime.now().year
-    expiration_year = random.randint(current_year, current_year + 10)
-    expiration_month = random.randint(1, 12)
-    expiration_date = datetime(expiration_year, expiration_month, 1) + timedelta(days=30)
-    expiration_date = expiration_date.strftime("%m/%Y")
+number = random.randint(1000000000000000, 100000000000000000)
+date = random.randint(1, 12)
+date1 = random.randint(2025, 2035)
+cvv = random.randint(100, 1000)
 
-    # Generate a random CVV (3-digit number)
-    cvv = random.randint(100, 999)
+print(f"{lr}Generating...")
+t.sleep(3)
 
-    return card_number, expiration_date, cvv
+print(Fore.RED)
+print("Credit Card Generated.")
 
-# Generate the credit card details
-card_number, expiration_date, cvv = generate_credit_card()
-
-# Print the generated details
-print(f"{r}Generated Credit Card Details:")
-print(f"{b}Card Number:{lr}", card_number)
-print(f"{b}Expiration Date:{lr}", expiration_date)
-print(f"{b}CVV:{lr}", cvv)
-input("Press enter to continue : ")
+print(Fore.LIGHTBLACK_EX)
+print(f"Num: {lr}{number}")
+print(f"{b}Date: {lr}{date}/{date1} ")
+print(f"{b}CVV: {lr}{cvv}")
+input(f"{r}Press enter to continue : ")
