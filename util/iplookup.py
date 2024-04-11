@@ -53,4 +53,4 @@ def lookup():
 
 
 lookup()
-input()
+input(f"Press enter to continue : ")
