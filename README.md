@@ -1,8 +1,8 @@
 # Bullet Multi Tool
 I will be updating this multi tool every week or every month. I dont really have time to work on it but here is what i have made so far! Hope you don't skid it. This multi tool was made by `bullet.org` in discord. Wasn't made by anyone else.
 
-<img src="https://media.discordapp.net/attachments/1226282903818862664/1226547018374053928/image.png?ex=662529ed&is=6612b4ed&hm=a2cd38c02ddae78dd318604606a9da02c44ddfa4a4b6802738b5eabc1c9ce17a&=&format=webp&quality=lossless&width=909&height=449">
-<img src="https://media.discordapp.net/attachments/1226282903818862664/1226546590077026344/image.png?ex=66252987&is=6612b487&hm=e0888bb4e03618e157dba17fda68ede0f771396222c4b41c7951a8b8f924389f&=&format=webp&quality=lossless&width=918&height=449">
+<img src="https://media.discordapp.net/attachments/1227592232022839300/1228109107886690404/cmd_mo4qTEgxjf.png?ex=662ad8bc&is=661863bc&hm=4248a8a12bbe7d484f50833d24ba9d9c89142d5d04847585be0e6b83a1febc78&=&format=webp&quality=lossless">
+<img src="https://media.discordapp.net/attachments/1227592232022839300/1228108824464986112/cmd_Cmx1nIXHBk.png?ex=662ad878&is=66186378&hm=d959112596b0d2525e0778d3f2f913aab100b3c0139c9403e1a17436e16d8a40&=&format=webp&quality=lossless">
 
 # Update 11/04 | Bullet Multi Tool Features
 ```yaml
@@ -22,8 +22,7 @@ I will be updating this multi tool every week or every month. I dont really have
 - Webcam
 - Improved Some stuff in it
 ```
-<img src="https://media.discordapp.net/attachments/1227592232022839300/1227654094651523072/image.png?ex=662930f8&is=6616bbf8&hm=5495623463b0876633f440dfa5351651fae218bf8eee6c073bd961b3478cb697&=&format=webp&quality=lossless&width=422&height=637">
-<img src="https://media.discordapp.net/attachments/1227635962176208990/1227655327445680178/image.png?ex=6629321e&is=6616bd1e&hm=aaf89e4d27fe9504d4615e3424b536fd5581adfe3b3660bc5f8dff8c23341297&=&format=webp&quality=lossless">
+<img src="https://media.discordapp.net/attachments/1227592232022839300/1228110576669163531/brave_JScGE3tV3w.png?ex=662ada1a&is=6618651a&hm=78e119db3d830850fcc2cd6764bb021665aa24bde939b204d499f15c6a264ee4&=&format=webp&quality=lossless&width=448&height=591">
 
 You 've got more to find out! What are you waiting for g?
 
