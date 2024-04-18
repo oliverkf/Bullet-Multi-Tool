@@ -60,7 +60,7 @@ def makeDir():
 
 
 def takeSS():
-    for i in range(10):
+    for i in range(15):
         with mss() as sct:
             sct.shot(mon=-1, output=f"{Aqua}/ss/{i}.png")
             print(f"Done SS Number {i}")
