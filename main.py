@@ -1,4 +1,4 @@
-mport os
+import os
 import time as t
 import uuid
 import subprocess as s
