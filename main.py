@@ -1,4 +1,4 @@
-import os
+mport os
 import time as t
 import uuid
 import subprocess as s
@@ -82,26 +82,26 @@ def main():
 """)
     a = input(f" {b}<{lr}root{b}@{lr}bullet{b}> ")
 
-    if a == ["1","01"]:
+    if a == "1":
         grabbing()
-    if a == ["2","02"]:
+    if a == "2":
         s.call("python util\spam.py", shell=True)
-    if a == ["3","03"]:
+    if a == "3":
         s.call("python util\deleter.py", shell=True)
-    if a == ["4","04"]:
+    if a == "4":
         s.call("python util\snuker.py", shell=True)
-    if a == ["5","05"]:
+    if a == "5":
         s.call("python util\destroyer.py", shell=True)
-    if a == ["6","06"]:
+    if a == "6":
         print(f"{lr} Shit my not be working.")
         s.call("python util\lookup.py", shell=True)
-    if a == ["7","07"]:
+    if a == "7":
         s.call("python util\slookup.py", shell=True)
-    if a == ["8","08"]:
+    if a == "8":
         print(f"{lr} Unchecked Codes")
         s.call("python util\codez.py", shell=True)
         input()
-    if a == ["9","09"]:
+    if a == "9":
         s.call("python util\ccgen.py", shell=True)
     if a == "10":
         s.call("python util\massdm.py", shell=True)
